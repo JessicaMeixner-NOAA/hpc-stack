@@ -1,0 +1,17 @@
+name: iodaconv
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - numpy
+  - scipy
+  - netcdf4
+  - xarray
+  - pandas
+  - cython
+  - pyyaml
+  - autopep8
+  - pybind11
+  - pytest
+  - h5py
+  - pygrib

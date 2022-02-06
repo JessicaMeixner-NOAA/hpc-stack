@@ -1,0 +1,30 @@
+name: emcpyplot
+channels:
+  - defaults
+dependencies:
+  - python=3.7
+  - numpy
+  - scipy
+  - matplotlib
+  - netcdf4
+  - xarray
+  - xhistogram=0.1.2
+  - dask
+  - pandas
+  - cartopy
+  - cython
+  - jupyter
+  - jupyterlab
+  - pyyaml
+  - autopep8
+  - scikit-learn
+  - pybind11
+  - metpy
+  - pytest
+  - sphinx
+  - sphinx_rtd_theme
+  - pip:
+    - git+https://github.com/jcsda-internal/solo.git
+    - git+https://github.com/jcsda-internal/r2d2.git
+    - git+https://github.com/noaa-emc/emcpy.git
+    - git+https://github.com/noaa-emc/pygsi.git
