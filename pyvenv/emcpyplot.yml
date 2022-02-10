@@ -1,6 +1,7 @@
 name: emcpyplot
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - python=3.7
   - numpy
@@ -23,8 +24,4 @@ dependencies:
   - pytest
   - sphinx
   - sphinx_rtd_theme
-  - pip:
-    - git+https://github.com/jcsda-internal/solo.git
-    - git+https://github.com/jcsda-internal/r2d2.git
-    - git+https://github.com/noaa-emc/emcpy.git
-    - git+https://github.com/noaa-emc/pygsi.git
+  - pip

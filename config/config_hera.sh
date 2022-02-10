@@ -28,4 +28,4 @@ export STACK_fms_CFLAGS="-march=core-avx2"
 export STACK_fms_FFLAGS="-march=core-avx2"
 
 # Miniconda3 URL on Hera
-export STACK_miniconda3_URL="http://anaconda.rdhpcs.noaa.gov"
+#export STACK_miniconda3_URL="http://anaconda.rdhpcs.noaa.gov"
