@@ -1,19 +1,19 @@
 miniconda3:
-  build: NO
+  build: YES
   version: 4.6.14
 
 r2d2:
-  build: NO
+  build: YES
   version: 1.0.0
   is_pyvenv: YES
 
 iodaconv:
-  build: NO
+  build: YES
   version: 1.0.0
   is_pyvenv: YES
 
 emcpyplot:
-  build: NO
+  build: YES
   version: 1.0.0
   is_pyvenv: YES
 

@@ -16,6 +16,7 @@ dependencies:
   - pytest
   - h5py
   - pygrib
+  - pip
   - pip:
     - git+https://github.com/jcsda-internal/solo.git@877b414
     - git+https://github.com/jcsda-internal/r2d2.git@bb361c2
