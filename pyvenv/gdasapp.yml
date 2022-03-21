@@ -1,0 +1,21 @@
+name: gdasapp
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7
+  - numpy
+  - scipy
+  - netcdf4
+  - xarray
+  - pandas
+  - cython
+  - pyyaml
+  - autopep8
+  - pybind11
+  - pytest
+  - h5py
+  - pygrib
+  - pip:
+    - git+https://github.com/jcsda-internal/solo.git@877b414
+    - git+https://github.com/jcsda-internal/r2d2.git@bb361c2
