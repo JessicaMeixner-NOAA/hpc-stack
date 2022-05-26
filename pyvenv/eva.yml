@@ -1,0 +1,27 @@
+name: eva 
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7
+  - numpy
+  - scipy
+  - netcdf4
+  - matplotlib
+  - xarray
+  - xhistogram=0.1.2
+  - dask
+  - pandas
+  - cartopy
+  - cython
+  - jupyter
+  - jupyterlab
+  - pyyaml
+  - autopep8
+  - scikit-learn
+  - pybind11
+  - metpy
+  - pytest
+  - pip
+  - pip:
+    - git+https://github.com/danholdaway/eva.git@b1803e4

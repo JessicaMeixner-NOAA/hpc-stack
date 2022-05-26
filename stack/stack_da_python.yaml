@@ -22,3 +22,7 @@ gdasapp:
   version: 1.0.0
   is_pyvenv: YES
 
+eva:
+  build: YES
+  version: 1.0.0
+  is_pyvenv: YES

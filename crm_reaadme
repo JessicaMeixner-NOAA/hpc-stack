@@ -1,0 +1,18 @@
+    1  wget
+    2  cd /work2/noaa/da/python/hpc-stack-git
+    3  ls
+    4  ./setup_modules.sh -p /work2/noaa/da/python/opt -c config/config_orion.sh
+    5  ./build_stack.sh -p /work2/noaa/da/python/opt -c config/config_orion.sh -y stack/stack_da_python.yaml
+    6  ls -l /work2/noaa/da/python/opt
+    7  ./build_stack.sh -p /work2/noaa/da/python/opt -c config/config_orion.sh -y stack/stack_da_python.yaml -u
+    8  ./build_stack.sh -u -p /work2/noaa/da/python/opt -c config/config_orion.sh -y stack/stack_da_python.yaml
+    9  ./build_stack.sh -p /work2/noaa/da/python/opt -c config/config_orion.sh -y stack/stack_da_python.yaml -m -l miniconda3
+   10  ./build_stack.sh -p /work2/noaa/da/python/opt -c config/config_orion.sh -y stack/stack_da_python.yaml -m -l gdasapp
+   11  ls
+   12  git status
+   13  git add pyvenv/gdasapp.yml 
+   14  git add stack/stack_da_python.yaml 
+   15  git commit -m "Changes for gdasapp"
+   16  git push
+   17  history
+   18  history > crm_reaadme
