@@ -16,6 +16,8 @@ dependencies:
   - pytest
   - h5py
   - pygrib
+  - gh
+  - boto3
   - pip
   - pip:
     - git+https://github.com/jcsda-internal/solo.git@877b414
