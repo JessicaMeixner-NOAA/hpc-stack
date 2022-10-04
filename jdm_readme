@@ -1,4 +1,17 @@
-./setup_modules.sh -p /work2/noaa/marine/jmeixner/stack/opt -c config/config_orion.sh
+configfile=config/config_orion.sh
+prefix=/work2/noaa/marine/jmeixner/stack/hpc-modules
+stackfile=stack/stack_wave.yaml
+
+#./setup_modules.sh -p /work2/noaa/marine/jmeixner/stack/opt -c config/config_orion.sh
 #answer questions with default NO
-./build_stack.sh -p /work2/noaa/marine/jmeixner/stack/opt -c config/config_orion.sh -y stack/stack_da_python.yaml   -m 
+#./build_stack.sh -p /work2/noaa/marine/jmeixner/stack/opt -c config/config_orion.sh -y stack/stack_da_python.yaml   -m 
+#./build_stack.sh -p /work2/noaa/marine/jmeixner/stack/opt -c config/config_orion.sh -y stack/stack_da_python.yaml -m -l miniconda3
+#./build_stack.sh -p /work2/noaa/marine/jmeixner/stack/opt -c config/config_orion.sh -y stack/stack_da_python.yaml -m -l gdasapp
+
+
+echo "./setup_modules.sh -p $prefix -c $configfile" 
+echo "./build_stack.sh -p $prefix -c $configfile -y $stackfile -m"
+echo "./build_stack.sh -p $prefix -c $configfile -y $stackfile -m -l emcpyplot"
+echo "./build_stack.sh -p $prefix -c $configfile -y $stackfile -m -l ww3tools"
+echo "./build_stack.sh -p $prefix -c $configfile -y $stackfile -m -l alphabeta"
 
