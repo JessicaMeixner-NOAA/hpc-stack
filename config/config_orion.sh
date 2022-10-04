@@ -1,15 +1,15 @@
 #!/bin/bash
 
 # Compiler/MPI combination
-export HPC_COMPILER="intel/2018.4"
-export HPC_MPI="impi/2018.4"
+export HPC_COMPILER="intel/2022.1.2"
+export HPC_MPI="impi/2022.1.2"
 export HPC_PYTHON="miniconda3/4.6.14"
 
 # Build options
 export USE_SUDO=N
 export PKGDIR=pkg
 export LOGDIR=log
-export OVERWRITE=N
+export OVERWRITE=Y
 export NTHREADS=8
 export   MAKE_CHECK=N
 export MAKE_VERBOSE=N

@@ -1,0 +1,4 @@
+./setup_modules.sh -p /work2/noaa/marine/jmeixner/stack/opt -c config/config_orion.sh
+#answer questions with default NO
+./build_stack.sh -p /work2/noaa/marine/jmeixner/stack/opt -c config/config_orion.sh -y stack/stack_da_python.yaml   -m 
+
